@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.1.5",
+  "iOS" : [
+    {
+      "hash" : "8cd40e777923268f2af968c241c62f9531b1955c71147cfa78e0717d340de1a0",
+      "name" : "CSS3ColorsSwift"
+    }
+  ]
+}

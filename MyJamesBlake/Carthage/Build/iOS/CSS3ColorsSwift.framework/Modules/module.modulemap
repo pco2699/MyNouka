@@ -1,0 +1,10 @@
+framework module CSS3ColorsSwift {
+  umbrella header "CSS3ColorsSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module CSS3ColorsSwift.Swift {
+    header "CSS3ColorsSwift-Swift.h"
+}

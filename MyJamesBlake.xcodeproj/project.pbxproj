@@ -12,6 +12,11 @@
 		731BB81C1ED0179D0098C5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731BB81A1ED0179D0098C5D4 /* Main.storyboard */; };
 		731BB81E1ED0179D0098C5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731BB81D1ED0179D0098C5D4 /* Assets.xcassets */; };
 		731BB8211ED0179D0098C5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731BB81F1ED0179D0098C5D4 /* LaunchScreen.storyboard */; };
+		731BB8391ED6F5B00098C5D4 /* NOUKA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 731BB8381ED6F5B00098C5D4 /* NOUKA.wav */; };
+		731BB8431ED6FA0D0098C5D4 /* rakunouka.aif in Resources */ = {isa = PBXBuildFile; fileRef = 731BB83F1ED6F9F10098C5D4 /* rakunouka.aif */; };
+		731BB8441ED6FA0D0098C5D4 /* itu_rakunouka.aif in Resources */ = {isa = PBXBuildFile; fileRef = 731BB8401ED6F9FC0098C5D4 /* itu_rakunouka.aif */; };
+		731BB8451ED6FA0D0098C5D4 /* itu_nouka.aif in Resources */ = {isa = PBXBuildFile; fileRef = 731BB8411ED6FA020098C5D4 /* itu_nouka.aif */; };
+		731BB8461ED6FA0D0098C5D4 /* nouka.aif in Resources */ = {isa = PBXBuildFile; fileRef = 731BB8421ED6FA070098C5D4 /* nouka.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,14 @@
 		731BB81D1ED0179D0098C5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731BB8201ED0179D0098C5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731BB8221ED0179D0098C5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731BB82B1ED0313C0098C5D4 /* CSS3ColorsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSS3ColorsSwift.framework; path = Carthage/Build/iOS/CSS3ColorsSwift.framework; sourceTree = "<group>"; };
+		731BB82E1ED033A50098C5D4 /* CSS3ColorsSwift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CSS3ColorsSwift; path = Carthage/Build/iOS/CSS3ColorsSwift.framework/CSS3ColorsSwift; sourceTree = "<group>"; };
+		731BB8341ED036E10098C5D4 /* CSS3ColorsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSS3ColorsSwift.framework; path = MyJamesBlake/Carthage/Build/iOS/CSS3ColorsSwift.framework; sourceTree = "<group>"; };
+		731BB8381ED6F5B00098C5D4 /* NOUKA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NOUKA.wav; sourceTree = "<group>"; };
+		731BB83F1ED6F9F10098C5D4 /* rakunouka.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = rakunouka.aif; sourceTree = "<group>"; };
+		731BB8401ED6F9FC0098C5D4 /* itu_rakunouka.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = itu_rakunouka.aif; sourceTree = "<group>"; };
+		731BB8411ED6FA020098C5D4 /* itu_nouka.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = itu_nouka.aif; sourceTree = "<group>"; };
+		731BB8421ED6FA070098C5D4 /* nouka.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = nouka.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +53,7 @@
 			children = (
 				731BB8151ED0179D0098C5D4 /* MyJamesBlake */,
 				731BB8141ED0179D0098C5D4 /* Products */,
+				731BB82A1ED0313C0098C5D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +74,23 @@
 				731BB81D1ED0179D0098C5D4 /* Assets.xcassets */,
 				731BB81F1ED0179D0098C5D4 /* LaunchScreen.storyboard */,
 				731BB8221ED0179D0098C5D4 /* Info.plist */,
+				731BB8381ED6F5B00098C5D4 /* NOUKA.wav */,
+				731BB83F1ED6F9F10098C5D4 /* rakunouka.aif */,
+				731BB8401ED6F9FC0098C5D4 /* itu_rakunouka.aif */,
+				731BB8411ED6FA020098C5D4 /* itu_nouka.aif */,
+				731BB8421ED6FA070098C5D4 /* nouka.aif */,
 			);
 			path = MyJamesBlake;
+			sourceTree = "<group>";
+		};
+		731BB82A1ED0313C0098C5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731BB8341ED036E10098C5D4 /* CSS3ColorsSwift.framework */,
+				731BB82E1ED033A50098C5D4 /* CSS3ColorsSwift */,
+				731BB82B1ED0313C0098C5D4 /* CSS3ColorsSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +153,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731BB8431ED6FA0D0098C5D4 /* rakunouka.aif in Resources */,
+				731BB8441ED6FA0D0098C5D4 /* itu_rakunouka.aif in Resources */,
+				731BB8451ED6FA0D0098C5D4 /* itu_nouka.aif in Resources */,
+				731BB8461ED6FA0D0098C5D4 /* nouka.aif in Resources */,
 				731BB8211ED0179D0098C5D4 /* LaunchScreen.storyboard in Resources */,
 				731BB81E1ED0179D0098C5D4 /* Assets.xcassets in Resources */,
 				731BB81C1ED0179D0098C5D4 /* Main.storyboard in Resources */,
+				731BB8391ED6F5B00098C5D4 /* NOUKA.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +298,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AH8RM8374E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MyJamesBlake/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyJamesBlake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/CSS3ColorsSwift.framework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pco2699.MyJamesBlake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -277,8 +320,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AH8RM8374E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/MyJamesBlake/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyJamesBlake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/CSS3ColorsSwift.framework",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pco2699.MyJamesBlake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -304,6 +356,7 @@
 				731BB8271ED0179D0098C5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
